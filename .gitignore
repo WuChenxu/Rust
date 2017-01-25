@@ -1,2 +1,7 @@
 #ignore target
 02_Cargo_HelloWorld/hello_world/target
+02_Cargo_HelloWorld/hello_world/Cargo.lock
+03_gessing_game/target
+03_gessing_game/Cargo.lock
+04_take_a_break/target
+04_take_a_break/Cargo.lock
