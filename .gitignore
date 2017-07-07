@@ -9,4 +9,15 @@
 05_rename_file/Cargo.lock
 06_format/target
 06_format/Cargo.lock
+07_std_env/target
+07_std_env/Cargo.lock
+08_error_handling/target
+08_error_handling/Cargo.lock
+09_type_size/target
+09_type_size/Cargo.lock
+10_matching/target
+10_matching/Cargo.lock
+11_collatz_conjecture/target
+11_collatz_conjecture/Cargo.lock
+
 

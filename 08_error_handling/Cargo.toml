@@ -1,0 +1,6 @@
+[package]
+name = "error_handling"
+version = "0.1.0"
+authors = ["wuchenxu <wu_chenxu@126.com>"]
+
+[dependencies]
