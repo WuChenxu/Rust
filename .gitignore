@@ -19,5 +19,8 @@
 10_matching/Cargo.lock
 11_collatz_conjecture/target
 11_collatz_conjecture/Cargo.lock
+12_ownership/target
+12_ownership/Cargo.lock
+
 
 
