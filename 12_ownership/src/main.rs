@@ -6,7 +6,15 @@ fn increment(r: &mut u8) {
     *r = *r + 1;
 }
 
+fn helper(slot: Box<i32>) {
+    println!(" the number is: {}", slot);
+}
+
+
 fn main() {
+    let slot = Box::new(3);
+    helper(slot);
+   // helper(slot);
     let x = &10;
     let y = x;
     let mut a: u8 = 100;
@@ -45,6 +53,25 @@ fn main() {
     let element1 = vec.remove(1);
     println!("{:?}", vec);
 
+    //let p = vec![1, 2, 3];
+    //let q = inc(p);
+    let mut p : Vec<u32>= vec![1, 2, 3];
+    inc_mut(&mut p);
+    for i in p.iter() {
+        print!("{} ", i);
+    } 
+    
+    println!("");
 
 }
 
+
+fn inc(vec: Vec<u32>) -> Vec<u32> {
+    vec.into_iter().map(|x| x+1).collect()
+}
+
+fn inc_mut(vec: &mut Vec<u32>) {
+    for i in vec.iter_mut() {
+       *i += 1; 
+    }
+}
